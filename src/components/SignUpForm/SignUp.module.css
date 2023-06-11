@@ -1,0 +1,269 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+
+body {
+  background-color: #dfe2fc;
+}
+
+.logoForm {
+  background-color: #2845d6;
+  padding: 3%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  height: 1%;
+  text-align: center;
+}
+.titleForm {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #30398b;
+  padding-top: 12%;
+  text-align: center;
+  font-weight: 900;
+}
+
+.mainForm {
+  display: block;
+  background-color: #fff;
+  border-radius: 3%;
+  width: 35%;
+  padding: 1%;
+  box-shadow: 0 0 1px #2845d6;
+  transition: 0.5s box-shadow;
+  margin: auto;
+  transform: translateY(6%);
+}
+
+.mainForm:hover {
+  box-shadow: 0 0 10px #2845d6;
+  transition: 0.5s box-shadow;
+}
+
+.inputSign:focus {
+  border: 2px solid #2845d6;
+  background-color: #dfe2fc;
+}
+
+.inputSign:hover {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.loginBt {
+  width: 38%;
+  height: 45%;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10%;
+  border-radius: 5px;
+  color: #2845d6;
+  border: 3px solid #2845d6;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginBt:hover {
+  background-color: #2845d6;
+  color: #fff;
+  box-shadow: 0 0 10px #2845d6;
+  transition: 0.5s box-shadow;
+}
+
+.inputSign {
+  padding: 10px;
+  padding-top: 15px;
+  width: 100%;
+  height: 35%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  border: 2px solid;
+  border-radius: 5px;
+  color: #333437c7;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  background-color: #fafafa;
+  border: 0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  transition: 0.5s box-shadow;
+}
+
+.passwordMatch {
+  color: #ae1515;
+  font-weight: 500;
+  font-size: 1.3rem;
+  padding: 1%;
+}
+
+.labelSign {
+  display: block;
+  margin: auto;
+  margin-top: 3%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1%;
+  color: #30398b;
+}
+
+input::placeholder {
+  padding: auto;
+}
+
+input[type="date"] {
+  padding-top: 2%;
+}
+
+.bg {
+  animation: slide 12s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #2845d69c 50%, #fff 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 9s;
+  animation: slide 6s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #2845d69c 50%, #fff 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg3 {
+  animation-duration: 12s;
+  animation: slide 9s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #2845d69c 50%, #fff 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 10vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.linkLogin {
+  color: #0d28ad;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.linkTitle {
+  margin-top: 1%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}

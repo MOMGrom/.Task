@@ -1,0 +1,25 @@
+.loginBt {
+  margin-left: 80%;
+  width: 8%;
+  height: 45%;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3%;
+  border-radius: 5px;
+  color: #fff;
+  border: 3px solid #2845d6;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: 5%;
+  background-color: #2845d6;
+}
+
+.loginBt:hover {
+  background-color: #2845d6;
+  color: #fff;
+  box-shadow: 0 0 10px #2845d6;
+  transition: 0.7s box-shadow;
+}

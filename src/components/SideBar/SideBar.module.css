@@ -1,0 +1,23 @@
+.minimized {
+    float: left;
+    position: absolute;
+    background-color: #2845D6;
+    height: 100%;
+    border-radius: 0px 18px 18px 0px;
+
+    padding: 15px 8px 0 8px;
+}
+
+.open {
+    float: left;
+    background-color: #2845D6;
+    width: 12vw;
+    height: 100%;    
+    border-radius: 0px 18px 18px 0px;
+    position: absolute;
+    padding: 15px 6px 0 43px;
+}
+
+.menu_item {
+    text-align: center;
+}

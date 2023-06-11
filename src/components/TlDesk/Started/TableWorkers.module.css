@@ -1,0 +1,45 @@
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse; 
+    color: #1a1b23;
+    font-weight: normal;
+	border-radius: 5px;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #DEE3FE;
+	border: 3px solid #040D64;
+}
+.table td {
+	border: 3px solid #040D64;
+	padding: 5px;
+}
+
+
+.tableCont {
+		height: 80%; /* Задайте желаемую высоту */
+		overflow: auto;
+		padding: 1%;
+		text-align: center;
+
+}
+
+.FCs {
+	text-align: left;
+	font-weight: 590;
+	color: #040D64;
+	margin: auto;
+	padding-left: 10px;
+}
+
+img {
+	border-radius: 40px;
+	border: 1px solid #040D64 ;
+}
+
+.stickyHeader {
+	position: sticky;
+	top: 0;
+}

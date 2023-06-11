@@ -1,0 +1,110 @@
+.taskForm {
+    margin-left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #30398b;
+    font-weight: 900;
+    padding: 3%;
+    margin-left: 12%;
+}
+.labelAdd  {
+    display: block;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1%;
+    color: #30398b;
+  }
+
+  .inputAdd:focus {
+    border: 2px solid #2845d6;
+    background-color: #dfe2fc;
+  }
+  
+  .inputAdd:hover {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .inputAdd {
+    padding: 10px;
+    padding-top: 15px;
+    width: 70%;
+    height: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    border: 2px solid;
+    border-radius: 5px;
+    color: #333437c7;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    background-color: #fafafa;
+    border: 0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    transition: 0.5s box-shadow;
+    margin-bottom: 2%;
+    word-wrap: break-word;
+  }
+
+  .taskForm select {
+    padding: 10px;
+    padding-top: 15px;
+    width: 70%;
+    height: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    border: 2px solid;
+    border-radius: 5px;
+    color: #333437c7;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    background-color: #fafafa;
+    border: 0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    transition: 0.5s box-shadow;
+    margin-bottom: 2%;
+  }
+  .taskForm select option:nth-child(1) {
+    color: #008524; /* Цвет для "Легкий" */
+    font-weight: 600;
+  }
+  
+  .taskForm select option:nth-child(2) {
+    color: #ff9900; /* Цвет для "Средний" */
+    font-weight: 600;
+  }
+  
+  .taskForm select option:nth-child(3) {
+    color: #cd0e00; /* Цвет для "Сложный" */
+    font-weight: 600;
+  }
+
+.saveBt {
+    width: 18%;
+height: 45%;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  color: #2845d6;
+  border: 3px solid #2845d6;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 4px;
+  margin-top: 3%;
+  background-color: #fff;
+}
+
+.saveBt:hover {
+background-color: #2845d6;
+  color: #fff;
+  box-shadow: 0 0 10px #2845d6;
+  transition: 0.5s box-shadow;
+}
+
+textarea {
+  height: 200px;
+}

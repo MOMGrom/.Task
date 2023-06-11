@@ -1,0 +1,8 @@
+.title {
+    display: flex;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px;
+}

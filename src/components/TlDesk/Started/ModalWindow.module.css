@@ -1,0 +1,13 @@
+.modalWindow {
+    width: 70%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+
+.close {
+    margin-left: 95%;
+    margin-top: 2%;
+}

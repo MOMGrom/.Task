@@ -1,0 +1,24 @@
+.inputSearch {
+  position: absolute;
+  padding: 10px;
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  margin-left: 47%;
+  border: 2px solid;
+  border-radius: 5px;
+  color: #2b438bc7;
+  background-color: #fafafa;
+  border: 0;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+  transition: 0.5s box-shadow;
+}
+
+.inputSearch:focus {
+    border: 2px solid #2845d6;
+    background-color: #dfe2fc;
+  }
+  
+  .inputSearch:hover {
+    box-shadow: 0 0 8px #2845d6;
+  }
